@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,7 +89,7 @@ header{background:var(--surface);border-bottom:1px solid var(--border);padding:2
 header .container{padding:0 24px;}
 .header-inner{display:flex;align-items:center;justify-content:center;position:relative;}
 .header-left{text-align:center;}
-.header-badge{font-family:'Space Mono',monospace;font-size:0.63rem;color:var(--accent);background:var(--ratio-bg);border:1px solid var(--ratio-border);border-radius:4px;padding:3px 9px;letter-spacing:1px;text-transform:uppercase;display:inline-block;}
+.header-badge{font-family:Space Mono,monospace;font-size:0.63rem;color:var(--accent);background:var(--ratio-bg);border:1px solid var(--ratio-border);border-radius:4px;padding:3px 9px;letter-spacing:1px;text-transform:uppercase;display:inline-block;}
 h1{font-size:clamp(1.2rem,2.4vw,1.8rem);font-weight:800;color:var(--heading);letter-spacing:-0.4px;margin-top:6px;transition:color 0.25s;}
 h1 span{color:var(--accent);}
 .header-sub22{font-size:0.85rem;color:var(--muted);font-weight:500;margin-top:2px;letter-spacing:0.3px;}
@@ -107,7 +107,7 @@ h1 span{color:var(--accent);}
 .stat-card.green::after{background:linear-gradient(90deg,#22c55e,#4ade80);}
 .stat-card.grey::after{background:linear-gradient(90deg,#64748b,#94a3b8);}
 .stat-card.orange::after{background:linear-gradient(90deg,#f97316,#fbbf24);}
-.stat-val{font-family:'Space Mono',monospace;font-size:1.5rem;font-weight:700;color:var(--stat-val);display:block;transition:color 0.25s;}
+.stat-val{font-family:Space Mono,monospace;font-size:1.5rem;font-weight:700;color:var(--stat-val);display:block;transition:color 0.25s;}
 .stat-lbl{font-size:0.66rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.6px;margin-top:3px;}
 
 /* LEGEND */
@@ -129,12 +129,12 @@ h1 span{color:var(--accent);}
 .search-hint{font-size:0.72rem;color:var(--muted2);margin-top:6px;}
 
 /* SECTION LABEL */
-.section-label{font-size:0.67rem;font-family:'Space Mono',monospace;color:var(--muted2);text-transform:uppercase;letter-spacing:1px;margin-bottom:11px;display:flex;align-items:center;gap:7px;}
+.section-label{font-size:0.67rem;font-family:Space Mono,monospace;color:var(--muted2);text-transform:uppercase;letter-spacing:1px;margin-bottom:11px;display:flex;align-items:center;gap:7px;}
 .section-label::after{content:'';flex:1;height:1px;background:var(--border);}
 
 /* ROLLS GRID */
 .rolls-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(86px,1fr));gap:7px;margin-bottom:34px;}
-.roll-btn{padding:10px 3px;border-radius:7px;text-align:center;font-family:'Space Mono',monospace;font-size:0.78rem;font-weight:700;cursor:pointer;border:1.5px solid transparent;transition:transform 0.12s,box-shadow 0.12s,background 0.25s;user-select:none;}
+.roll-btn{padding:10px 3px;border-radius:7px;text-align:center;font-family:Space Mono,monospace;font-size:0.78rem;font-weight:700;cursor:pointer;border:1.5px solid transparent;transition:transform 0.12s,box-shadow 0.12s,background 0.25s;user-select:none;}
 .roll-btn:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);}
 .roll-btn.nv{background:var(--grey-bg);color:var(--grey-text);border-color:var(--grey-border);}
 .roll-btn.vo{background:var(--green-bg);color:var(--green2);border-color:var(--green-border);}
@@ -158,7 +158,7 @@ h1 span{color:var(--accent);}
 .m-badge.nv{background:var(--grey-bg);color:var(--grey-text);border:1px solid var(--grey-border);}
 .m-badge.vo{background:var(--green-bg);color:var(--green2);border:1px solid var(--green-border);}
 .m-badge.sel{background:var(--orange-bg);color:var(--orange2);border:1px solid var(--orange-border);}
-.m-roll{font-family:'Space Mono',monospace;font-size:1.75rem;font-weight:700;color:var(--heading);margin-bottom:14px;transition:color 0.25s;}
+.m-roll{font-family:Space Mono,monospace;font-size:1.75rem;font-weight:700;color:var(--heading);margin-bottom:14px;transition:color 0.25s;}
 .status-row{border:1px solid var(--border);border-radius:9px;overflow:hidden;margin-bottom:12px;}
 .srow{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-bottom:1px solid var(--border);font-size:0.83rem;}
 .srow:last-child{border-bottom:none;}
@@ -171,14 +171,14 @@ h1 span{color:var(--accent);}
 .info-note.green{background:var(--green-bg);color:var(--green2);border:1px solid var(--green-border);}
 .info-note.orange{background:var(--orange-bg);color:var(--orange2);border:1px solid var(--orange-border);}
 .ratio-box{background:var(--ratio-bg);border:1px solid var(--ratio-border);border-radius:9px;padding:11px 13px;margin-top:11px;}
-.rtitle{font-size:0.64rem;font-family:'Space Mono',monospace;color:var(--accent2);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:7px;font-weight:700;}
+.rtitle{font-size:0.64rem;font-family:Space Mono,monospace;color:var(--accent2);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:7px;font-weight:700;}
 .rline{font-size:0.81rem;color:var(--muted);margin-bottom:3px;}
 .rline strong{color:var(--heading);}
-.rval{font-family:'Space Mono',monospace;font-size:1.1rem;font-weight:700;color:var(--accent2);margin-top:5px;}
+.rval{font-family:Space Mono,monospace;font-size:1.1rem;font-weight:700;color:var(--accent2);margin-top:5px;}
 .bank-block{background:var(--orange-bg);border:1px solid var(--orange-border);border-radius:8px;padding:9px 12px;margin-bottom:9px;}
 .bname{font-size:0.88rem;font-weight:700;color:var(--orange2);}
 .bname-bn{font-size:0.74rem;color:var(--muted);margin-top:2px;}
-.merit-tag{display:inline-flex;align-items:center;gap:4px;background:var(--ratio-bg);border:1px solid var(--ratio-border);border-radius:6px;padding:3px 10px;font-family:'Space Mono',monospace;font-size:0.82rem;color:var(--accent2);font-weight:700;}
+.merit-tag{display:inline-flex;align-items:center;gap:4px;background:var(--ratio-bg);border:1px solid var(--ratio-border);border-radius:6px;padding:3px 10px;font-family:Space Mono,monospace;font-size:0.82rem;color:var(--accent2);font-weight:700;}
 
 /* GRAPHS */
 .graphs-section{margin-top:6px;}
@@ -190,7 +190,7 @@ h1 span{color:var(--accent);}
 .bc-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:13px;}
 .bc-name{font-size:0.93rem;font-weight:700;color:var(--heading);transition:color 0.25s;}
 .bc-bn{font-size:0.72rem;color:var(--muted);margin-top:1px;}
-.bc-badge{font-family:'Space Mono',monospace;font-size:0.7rem;background:var(--ratio-bg);border:1px solid var(--ratio-border);color:var(--accent2);border-radius:6px;padding:3px 8px;white-space:nowrap;}
+.bc-badge{font-family:Space Mono,monospace;font-size:0.7rem;background:var(--ratio-bg);border:1px solid var(--ratio-border);color:var(--accent2);border-radius:6px;padding:3px 8px;white-space:nowrap;}
 .chart-wrap{position:relative;width:100%;}
 
 /* SCROLL BTN */
@@ -206,7 +206,7 @@ h1 span{color:var(--accent);}
 #visitorWidget{position:fixed;bottom:36px;right:16px;display:flex;align-items:center;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:4px 10px 4px 8px;font-size:0.68rem;color:var(--muted2);z-index:490;box-shadow:var(--shadow-sm);transition:background 0.25s,border-color 0.25s;}
 .vc-dot{width:6px;height:6px;border-radius:50%;background:var(--accent2);flex-shrink:0;animation:vcpulse 2.2s infinite;}
 @keyframes vcpulse{0%,100%{opacity:1}50%{opacity:0.3}}
-#vcTotal{font-family:'Space Mono',monospace;font-weight:700;color:var(--accent2);font-size:0.72rem;min-width:18px;text-align:center;transition:color 0.3s;}
+#vcTotal{font-family:Space Mono,monospace;font-weight:700;color:var(--accent2);font-size:0.72rem;min-width:18px;text-align:center;transition:color 0.3s;}
 .vc-lbl{color:var(--muted2);letter-spacing:0.2px;}
 
 
@@ -287,6 +287,47 @@ h1 span{color:var(--accent);}
         </div>
       </div>
       <p style="font-size:0.68rem;color:var(--muted2);margin-top:7px;text-align:center;">&#8592; Swipe or drag left/right to explore all candidates &rarr;</p>
+      <div style="margin-top:18px;border-top:1px solid var(--border);padding-top:16px;">
+        <div style="font-size:0.65rem;font-family:Space Mono,monospace;color:var(--muted2);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:10px;">Ratio Breakdown &mdash; All 974 Selected</div>
+        <table id="allSelectedRatioTable" style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr>
+              <th style="padding:7px 12px;font-size:0.65rem;color:var(--muted2);text-align:left;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">Ratio Range</th>
+              <th style="padding:7px 12px;font-size:0.65rem;color:var(--muted2);text-align:right;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">Selected</th>
+              <th style="padding:7px 12px;font-size:0.65rem;color:var(--muted2);text-align:right;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">% of Total</th>
+              <th style="padding:7px 12px;font-size:0.65rem;color:var(--muted2);text-align:left;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">Share</th>
+            </tr>
+          </thead>
+          <tbody id="allSelectedRatioBody">
+            <tr><td colspan="4" style="padding:20px;text-align:center;color:var(--muted2);font-size:0.82rem;">Loading&hellip;</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="gsec-title" style="margin-top:6px;">Viva Attended &mdash; Not Finally Selected</div>
+    <p class="gsec-sub">Candidates who passed written &amp; attended viva but were not selected &mdash; broken down by competition ratio range. Percentage is share of all green candidates.</p>
+    <div class="g-card" style="padding:18px 20px;">
+      <div class="bc-header" style="margin-bottom:14px;">
+        <div>
+          <div class="bc-name">Green Candidates Ratio Breakdown</div>
+          <div class="bc-bn" id="greenTableSub">Passed written, attended viva, not finally selected</div>
+        </div>
+        <div class="bc-badge" id="greenTotalBadge">&hellip;</div>
+      </div>
+      <table id="greenRatioTable" style="width:100%;border-collapse:collapse;">
+        <thead>
+          <tr>
+            <th style="padding:7px 12px;font-size:0.65rem;color:var(--muted2);text-align:left;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">Ratio Range</th>
+            <th style="padding:7px 12px;font-size:0.65rem;color:var(--muted2);text-align:right;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">Candidates</th>
+            <th style="padding:7px 12px;font-size:0.65rem;color:var(--muted2);text-align:right;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">% of Green</th>
+            <th style="padding:7px 12px;font-size:0.65rem;color:var(--muted2);text-align:left;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">Share</th>
+          </tr>
+        </thead>
+        <tbody id="greenRatioBody">
+          <tr><td colspan="4" style="padding:20px;text-align:center;color:var(--muted2);font-size:0.82rem;">Loading&hellip;</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
@@ -874,7 +915,7 @@ const totalSelected = bankWiseSelected.reduce((sum, b) => sum + b.totalSelected,
   var html = document.documentElement;
   var toggleBtn = document.getElementById('themeToggle');
   var tIcon  = document.getElementById('themeIcon');
-  var isDark = true;
+  var isDark = false;
 
   function applyTheme(dark) {
     isDark = dark;
@@ -1175,6 +1216,40 @@ const totalSelected = bankWiseSelected.reduce((sum, b) => sum + b.totalSelected,
         return { x: idx + 1, y: voRatioCache.get(vo), roll: roll };
       }).filter(function(d){ return d !== null; });
 
+      /* ── Ratio breakdown table data ── */
+      var ratioBins = [
+        { label: '< 2',    min: 0,   max: 2   },
+        { label: '2 – 2.5', min: 2,   max: 2.5 },
+        { label: '2.5 – 3', min: 2.5, max: 3   },
+        { label: '3 – 3.5', min: 3,   max: 3.5 },
+        { label: '3.5 – 4', min: 3.5, max: 4   },
+        { label: '4 – 5',   min: 4,   max: 5   },
+        { label: '5 – 7',   min: 5,   max: 7   },
+        { label: '≥ 7',     min: 7,   max: 999 }
+      ];
+      ratioBins.forEach(function(b){ b.count = 0; });
+      pts.forEach(function(p) {
+        for (var i = 0; i < ratioBins.length; i++) {
+          if (p.y >= ratioBins[i].min && p.y < ratioBins[i].max) { ratioBins[i].count++; break; }
+        }
+      });
+      var activeRows = ratioBins.filter(function(b){ return b.count > 0; });
+      var totalPts = pts.length;
+
+      var tableRows = activeRows.map(function(b) {
+        var pct = totalPts > 0 ? ((b.count / totalPts) * 100).toFixed(1) : '0.0';
+        var barW = totalPts > 0 ? Math.round((b.count / totalPts) * 100) : 0;
+        return '<tr>'
+          + '<td style="padding:5px 10px;font-family:Space Mono,monospace;font-size:0.72rem;color:var(--text);white-space:nowrap;">' + b.label + '</td>'
+          + '<td style="padding:5px 10px;font-family:Space Mono,monospace;font-size:0.72rem;color:var(--heading);text-align:right;">' + b.count + '</td>'
+          + '<td style="padding:5px 10px;font-family:Space Mono,monospace;font-size:0.72rem;color:var(--accent2);text-align:right;">' + pct + '%</td>'
+          + '<td style="padding:5px 10px;width:120px;">'
+          + '<div style="background:var(--border);border-radius:3px;height:8px;overflow:hidden;">'
+          + '<div style="width:' + barW + '%;height:100%;background:' + color + ';border-radius:3px;transition:width 0.4s;"></div>'
+          + '</div></td>'
+          + '</tr>';
+      }).join('');
+
       var card = document.createElement('div');
       card.className = 'g-card';
       card.innerHTML =
@@ -1182,7 +1257,19 @@ const totalSelected = bankWiseSelected.reduce((sum, b) => sum + b.totalSelected,
         + '<div><div class="bc-name">' + bank.bankName + '</div><div class="bc-bn">' + bank.bankNameBN + '</div></div>'
         + '<div class="bc-badge">' + bank.totalSelected + ' selected</div>'
         + '</div>'
-        + '<div class="chart-wrap"><canvas id="bc' + bi + '" height="180"></canvas></div>';
+        + '<div class="chart-wrap"><canvas id="bc' + bi + '" height="180"></canvas></div>'
+        + '<div style="margin-top:16px;border-top:1px solid var(--border);padding-top:14px;">'
+        + '<div style="font-size:0.68rem;font-family:Space Mono,monospace;color:var(--muted2);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:8px;">Ratio Breakdown</div>'
+        + '<table style="width:100%;border-collapse:collapse;">'
+        + '<thead><tr>'
+        + '<th style="padding:4px 10px;font-size:0.65rem;color:var(--muted2);text-align:left;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">Ratio Range</th>'
+        + '<th style="padding:4px 10px;font-size:0.65rem;color:var(--muted2);text-align:right;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">Selected</th>'
+        + '<th style="padding:4px 10px;font-size:0.65rem;color:var(--muted2);text-align:right;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">%</th>'
+        + '<th style="padding:4px 10px;font-size:0.65rem;color:var(--muted2);text-align:left;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;border-bottom:1px solid var(--border);">Share</th>'
+        + '</tr></thead>'
+        + '<tbody>' + tableRows + '</tbody>'
+        + '</table>'
+        + '</div>';
       container.appendChild(card);
 
       new Chart(document.getElementById('bc' + bi).getContext('2d'), {
@@ -1314,9 +1401,98 @@ const totalSelected = bankWiseSelected.reduce((sum, b) => sum + b.totalSelected,
     scrollEl.addEventListener('mousemove', function(e){ if(!isDown)return; e.preventDefault(); var x=e.pageX-scrollEl.offsetLeft; scrollEl.scrollLeft=scrollLeft-(x-startX)*1.5; });
   }
 
+  function buildAllSelectedRatioTable() {
+    var bins = [
+      { label: '< 2',     min: 0,   max: 2,   color: '#22c55e' },
+      { label: '2 – 2.5', min: 2,   max: 2.5, color: '#3b82f6' },
+      { label: '2.5 – 3', min: 2.5, max: 3,   color: '#8b5cf6' },
+      { label: '3 – 3.5', min: 3,   max: 3.5, color: '#a855f7' },
+      { label: '3.5 – 4', min: 3.5, max: 4,   color: '#ec4899' },
+      { label: '4 – 5',   min: 4,   max: 5,   color: '#f97316' },
+      { label: '5 – 7',   min: 5,   max: 7,   color: '#ef4444' },
+      { label: '≥ 7',     min: 7,   max: 999, color: '#b91c1c' }
+    ];
+    bins.forEach(function(b){ b.count = 0; });
+
+    var total = 0;
+    bankWiseSelected.forEach(function(bank) {
+      bank.meritList.forEach(function(roll) {
+        var vo = rollToViva.get(roll);
+        if (!vo) return;
+        var r = voRatioCache.get(vo);
+        total++;
+        for (var i = 0; i < bins.length; i++) {
+          if (r >= bins[i].min && r < bins[i].max) { bins[i].count++; break; }
+        }
+      });
+    });
+
+    var activeBins = bins.filter(function(b){ return b.count > 0; });
+    var tbody = document.getElementById('allSelectedRatioBody');
+    if (!tbody) return;
+    tbody.innerHTML = activeBins.map(function(b) {
+      var pct  = total > 0 ? ((b.count / total) * 100).toFixed(1) : '0.0';
+      var barW = total > 0 ? Math.round((b.count / total) * 100) : 0;
+      return '<tr style="border-bottom:1px solid var(--border);">'
+        + '<td style="padding:8px 12px;font-family:Space Mono,monospace;font-size:0.74rem;color:var(--text);">' + b.label + '</td>'
+        + '<td style="padding:8px 12px;font-family:Space Mono,monospace;font-size:0.74rem;color:var(--heading);font-weight:700;text-align:right;">' + b.count.toLocaleString() + '</td>'
+        + '<td style="padding:8px 12px;font-family:Space Mono,monospace;font-size:0.74rem;color:var(--accent2);font-weight:700;text-align:right;">' + pct + '%</td>'
+        + '<td style="padding:8px 14px;min-width:140px;">'
+        + '<div style="background:var(--border);border-radius:4px;height:10px;overflow:hidden;">'
+        + '<div style="width:' + barW + '%;height:100%;background:' + b.color + ';border-radius:4px;"></div>'
+        + '</div></td>'
+        + '</tr>';
+    }).join('');
+  }
+
+    function buildGreenRatioTable() {
+    /* Green = in vivaSet but NOT in selectedSet */
+    var greenList = uniqueWritten.filter(function(r){ return vivaSet.has(r) && !selectedSet.has(r); });
+    var total = greenList.length;
+
+    document.getElementById('greenTotalBadge').textContent = total.toLocaleString() + ' candidates';
+
+    var bins = [
+      { label: '< 2',     min: 0,   max: 2,   color: '#22c55e' },
+      { label: '2 – 2.5', min: 2,   max: 2.5, color: '#4ade80' },
+      { label: '2.5 – 3', min: 2.5, max: 3,   color: '#3b82f6' },
+      { label: '3 – 3.5', min: 3,   max: 3.5, color: '#8b5cf6' },
+      { label: '3.5 – 4', min: 3.5, max: 4,   color: '#a855f7' },
+      { label: '4 – 5',   min: 4,   max: 5,   color: '#f97316' },
+      { label: '5 – 7',   min: 5,   max: 7,   color: '#ef4444' },
+      { label: '≥ 7',     min: 7,   max: 999, color: '#b91c1c' }
+    ];
+    bins.forEach(function(b){ b.count = 0; });
+
+    greenList.forEach(function(roll) {
+      var vo = rollToViva.get(roll);
+      if (!vo) return;
+      var r = voRatioCache.get(vo);
+      for (var i = 0; i < bins.length; i++) {
+        if (r >= bins[i].min && r < bins[i].max) { bins[i].count++; break; }
+      }
+    });
+
+    var activeBins = bins.filter(function(b){ return b.count > 0; });
+    var tbody = document.getElementById('greenRatioBody');
+    tbody.innerHTML = activeBins.map(function(b) {
+      var pct     = total > 0 ? ((b.count / total) * 100).toFixed(1) : '0.0';
+      var barW    = total > 0 ? Math.round((b.count / total) * 100) : 0;
+      return '<tr style="border-bottom:1px solid var(--border);">'
+        + '<td style="padding:8px 12px;font-family:Space Mono,monospace;font-size:0.74rem;color:var(--text);">' + b.label + '</td>'
+        + '<td style="padding:8px 12px;font-family:Space Mono,monospace;font-size:0.74rem;color:var(--heading);font-weight:700;text-align:right;">' + b.count.toLocaleString() + '</td>'
+        + '<td style="padding:8px 12px;font-family:Space Mono,monospace;font-size:0.74rem;color:var(--accent2);font-weight:700;text-align:right;">' + pct + '%</td>'
+        + '<td style="padding:8px 14px;min-width:140px;">'
+        + '<div style="background:var(--border);border-radius:4px;height:10px;overflow:hidden;">'
+        + '<div style="width:' + barW + '%;height:100%;background:' + b.color + ';border-radius:4px;"></div>'
+        + '</div></td>'
+        + '</tr>';
+    }).join('');
+  }
+
   var s = document.createElement('script');
   s.src = 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js';
-  s.onload = function() { loadCharts(); loadAllCandidatesChart(); };
+  s.onload = function() { loadCharts(); loadAllCandidatesChart(); buildAllSelectedRatioTable(); buildGreenRatioTable(); };
   document.head.appendChild(s);
 
 
