@@ -121,6 +121,8 @@ npx serve .
 
 ---
 
+**Ratio Hypothesis** — [Thohidul Islam Riad](https://www.facebook.com/share/1GidotutT9/)
+
 **Development** — [Plabon Kumer Sarker](https://plabonkumersarker.github.io/profile)
 
 ---
