@@ -23,10 +23,10 @@
   --green-bg:rgba(34,197,94,0.1);
   --green-border:rgba(34,197,94,0.25);
   --green2:#4ade80;
-  --orange:#f97316;
-  --orange-bg:rgba(249,115,22,0.1);
-  --orange-border:rgba(249,115,22,0.28);
-  --orange2:#fb923c;
+  --orange:#c9920a;
+  --orange-bg:rgba(201,146,10,0.12);
+  --orange-border:rgba(201,146,10,0.35);
+  --orange2:#f5c518;
   --grey-bg:rgba(71,85,105,0.35);
   --grey-border:rgba(100,116,139,0.4);
   --grey-text:#94a3b8;
@@ -59,10 +59,10 @@
   --green-bg:#f0fdf4;
   --green-border:#bbf7d0;
   --green2:#15803d;
-  --orange:#ea580c;
-  --orange-bg:#fff7ed;
-  --orange-border:#fed7aa;
-  --orange2:#c2410c;
+  --orange:#92700a;
+  --orange-bg:#fefce8;
+  --orange-border:#fde68a;
+  --orange2:#78590a;
   --grey-bg:#f1f5f9;
   --grey-border:#cbd5e1;
   --grey-text:#475569;
@@ -77,6 +77,9 @@
   --ratio-bg:#f8fafc;
   --ratio-border:#e2e8f0;
 }
+[data-theme="light"] .roll-btn.nv{background:#cbd5e1;color:#1e293b;border-color:#94a3b8;}
+[data-theme="light"] .roll-btn.vo{background:#166534;color:#dcfce7;border-color:#15803d;}
+[data-theme="light"] .roll-btn.sel{background:#78590a;color:#fef9c3;border-color:#a16207;}
 
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
@@ -106,7 +109,7 @@ h1 span{color:var(--accent);}
 .stat-card.blue::after{background:linear-gradient(90deg,#4f8ef7,#06b6d4);}
 .stat-card.green::after{background:linear-gradient(90deg,#22c55e,#4ade80);}
 .stat-card.grey::after{background:linear-gradient(90deg,#64748b,#94a3b8);}
-.stat-card.orange::after{background:linear-gradient(90deg,#f97316,#fbbf24);}
+.stat-card.orange::after{background:linear-gradient(90deg,#b8860b,#f5c518);}
 .stat-val{font-family:Space Mono,monospace;font-size:1.5rem;font-weight:700;color:var(--stat-val);display:block;transition:color 0.25s;}
 .stat-lbl{font-size:0.66rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.6px;margin-top:3px;}
 
@@ -116,7 +119,7 @@ h1 span{color:var(--accent);}
 .ldot{width:10px;height:10px;border-radius:3px;flex-shrink:0;}
 .ldot.g{background:#64748b;}
 .ldot.v{background:#22c55e;}
-.ldot.s{background:#f97316;}
+.ldot.s{background:#c9920a;}
 
 /* SEARCH */
 .search-section{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:15px 17px;margin-bottom:20px;box-shadow:var(--shadow-sm);transition:background 0.25s;}
@@ -136,9 +139,10 @@ h1 span{color:var(--accent);}
 .rolls-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(86px,1fr));gap:7px;margin-bottom:34px;}
 .roll-btn{padding:10px 3px;border-radius:7px;text-align:center;font-family:Space Mono,monospace;font-size:0.78rem;font-weight:700;cursor:pointer;border:1.5px solid transparent;transition:transform 0.12s,box-shadow 0.12s,background 0.25s;user-select:none;}
 .roll-btn:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);}
-.roll-btn.nv{background:var(--grey-bg);color:var(--grey-text);border-color:var(--grey-border);}
-.roll-btn.vo{background:var(--green-bg);color:var(--green2);border-color:var(--green-border);}
-.roll-btn.sel{background:var(--orange-bg);color:var(--orange2);border-color:var(--orange-border);}
+.roll-btn.nv{background:#374151;color:#d1d5db;border-color:#4b5563;}
+.roll-btn.vo{background:#166534;color:#bbf7d0;border-color:#15803d;}
+.roll-btn.sel{background:#92700a;color:#fef08a;border-color:#b8860b;}
+/* light theme roll btn overrides applied via inline rules below */
 .roll-btn.hl{outline:2.5px solid var(--accent2);outline-offset:2px;box-shadow:0 0 0 4px rgba(79,142,247,0.18)!important;}
 
 /* MODAL */
@@ -153,7 +157,7 @@ h1 span{color:var(--accent);}
 .mstrip{height:4px;border-radius:16px 16px 0 0;margin:-22px -22px 18px;}
 .mstrip.nv{background:linear-gradient(90deg,#64748b,#94a3b8);}
 .mstrip.vo{background:linear-gradient(90deg,#22c55e,#4ade80);}
-.mstrip.sel{background:linear-gradient(90deg,#f97316,#fbbf24);}
+.mstrip.sel{background:linear-gradient(90deg,#b8860b,#f5c518);}
 .m-badge{display:inline-flex;align-items:center;gap:5px;padding:3px 10px;border-radius:20px;font-size:0.68rem;font-weight:600;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:7px;}
 .m-badge.nv{background:var(--grey-bg);color:var(--grey-text);border:1px solid var(--grey-border);}
 .m-badge.vo{background:var(--green-bg);color:var(--green2);border:1px solid var(--green-border);}
@@ -245,7 +249,7 @@ h1 span{color:var(--accent);}
   <div class="legend-row">
     <div class="legend-item"><div class="ldot g"></div><span><strong>Grey</strong> &mdash; Appeared in Written, not called for Viva</span></div>
     <div class="legend-item"><div class="ldot v"></div><span><strong>Green</strong> &mdash; Passed Written, attended Viva, not finally selected</span></div>
-    <div class="legend-item"><div class="ldot s"></div><span><strong>Orange</strong> &mdash; Passed Written, passed Viva, finally selected</span></div>
+    <div class="legend-item"><div class="ldot s"></div><span><strong>Golden</strong> &mdash; Passed Written, passed Viva, finally selected</span></div>
   </div>
 
   <div class="search-section">
